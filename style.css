@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0 50px;
+    font-family: Raleway,sans-serif;
+    
+}
+
+/* header css */
+header{
+justify-content: space-between;
+margin-top: 20px;
+}
+
+header, .left-header, .right-header{
+    display: flex;
+}
+.left-header p{
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-top: 8px;
+    letter-spacing: .4px;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+
+}
+.right-header p, .right-header a{
+   
+    color: rgba(0,0,0,.6);
+    opacity: .6;
+    font-weight: 500;
+    padding-top: 8px;
+    letter-spacing: .4px;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+
+}
+.right-header p{
+    padding-right: 50px;
+}
+.right-header a{
+    text-decoration: none;
+    color: #fff;
+    background-color: blue;
+    padding: 17px 25px;
+    border-radius: 30px;
+}
+/* main css */
+main{
+    margin-top: 60px;
+}
+.filter{
+    margin-top: 20px;
+    display: flex;
+}
+.filter img{
+    height: 40px;
+    margin-bottom: 10px;
+}
+.filter p{
+    padding-top: 10px;
+}
+.filter-choice{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+
+}
+.filter-choice-option{
+    width: auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+.blog-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+}
+.blog-content-in{
+    width: 20em;
+}
+.blog-content img{
+    height: 11em;
+}
+
+footer{
+    height: 200px;
+    background-color: navy;
+}
+
+
+
+
