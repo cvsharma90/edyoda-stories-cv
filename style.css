@@ -91,6 +91,13 @@ main{
 .blog-content img{
     height: 11em;
 }
+.blog-content-text h2~p{
+ margin: 10px 0;
+}
+.blog-content-text span{  
+    color: #0096ff;
+    font-weight: 500;
+}
 
 footer{
     height: 200px;
