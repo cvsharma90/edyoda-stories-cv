@@ -102,6 +102,7 @@ main{
 }
 .blog-content img{
     height: 11em;
+    width: 100%;
 }
 .blog-content-text h2~p{
  margin: 10px 0;
