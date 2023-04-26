@@ -5,10 +5,12 @@
 body{
     padding: 0 50px;
     font-family: Raleway,sans-serif;
+    background: #efefef;
     
 }
 
 /* header css */
+
 header{
 justify-content: space-between;
 margin-top: 20px;
@@ -47,7 +49,9 @@ header, .left-header, .right-header{
     padding: 17px 25px;
     border-radius: 30px;
 }
+
 /* main css */
+
 main{
     margin-top: 60px;
 }
@@ -84,9 +88,17 @@ main{
     flex-direction: row;
     justify-content: center; 
 }
-.blog-content-in{
+.blog-content-post{
     width: 20em;
-    height: 350px!important;
+    height: 400px;
+    background-color: #fff;
+    margin: 15px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+.blog-content-text{
+    padding: 10px;
 }
 .blog-content img{
     height: 11em;
