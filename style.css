@@ -3,17 +3,22 @@
     padding: 0;
 }
 body{
-    padding: 0 50px;
-    font-family: Raleway,sans-serif;
-    background: #efefef;
+    
+    font-family: Raleway,sans-serif;   
     
 }
 
 /* header css */
 
+
 header{
 justify-content: space-between;
 margin-top: 20px;
+ border-bottom: 2px solid #efefef;
+
+padding: 0 50px;
+padding-bottom: 60px;
+
 }
 
 header, .left-header, .right-header{
@@ -53,7 +58,8 @@ header, .left-header, .right-header{
 /* main css */
 
 main{
-    margin-top: 60px;
+    background: #efefef;    
+    padding: 20px 200px 0;
 }
 .filter{
     margin-top: 20px;
